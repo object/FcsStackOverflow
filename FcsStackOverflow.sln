@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{63297B98-5CED-492C-A5B7-A5B4F73CF142}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+		paket.lock = paket.lock
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "project", "project", "{BF60BC93-E09B-4E5F-9D85-95A519479D54}"
+	ProjectSection(SolutionItems) = preProject
+		build.cmd = build.cmd
+		build.fsx = build.fsx
+		README.md = README.md
+		RELEASE_NOTES.md = RELEASE_NOTES.md
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "WebApi", "src\WebApi\WebApi.fsproj", "{8EABDD6D-8D75-4F37-B401-35FF2B37C066}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug Mono|Any CPU = Debug Mono|Any CPU
+		Debug Mono|x86 = Debug Mono|x86
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release Mono|Any CPU = Release Mono|Any CPU
+		Release Mono|x86 = Release Mono|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EABDD6D-8D75-4F37-B401-35FF2B37C066}.Debug Mono|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EABDD6D-8D75-4F37-B401-35FF2B37C066}.Debug Mono|Any CPU.Build.0 = Debug|Any CPU
+		{8EABDD6D-8D75-4F37-B401-35FF2B37C066}.Debug Mono|x86.ActiveCfg = Debug|Any CPU
+		{8EABDD6D-8D75-4F37-B401-35FF2B37C066}.Debug Mono|x86.Build.0 = Debug|Any CPU
+		{8EABDD6D-8D75-4F37-B401-35FF2B37C066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EABDD6D-8D75-4F37-B401-35FF2B37C066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EABDD6D-8D75-4F37-B401-35FF2B37C066}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8EABDD6D-8D75-4F37-B401-35FF2B37C066}.Debug|x86.Build.0 = Debug|Any CPU
+		{8EABDD6D-8D75-4F37-B401-35FF2B37C066}.Release Mono|Any CPU.ActiveCfg = Release|Any CPU
+		{8EABDD6D-8D75-4F37-B401-35FF2B37C066}.Release Mono|Any CPU.Build.0 = Release|Any CPU
+		{8EABDD6D-8D75-4F37-B401-35FF2B37C066}.Release Mono|x86.ActiveCfg = Release|Any CPU
+		{8EABDD6D-8D75-4F37-B401-35FF2B37C066}.Release Mono|x86.Build.0 = Release|Any CPU
+		{8EABDD6D-8D75-4F37-B401-35FF2B37C066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EABDD6D-8D75-4F37-B401-35FF2B37C066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EABDD6D-8D75-4F37-B401-35FF2B37C066}.Release|x86.ActiveCfg = Release|Any CPU
+		{8EABDD6D-8D75-4F37-B401-35FF2B37C066}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1DF15E8-7E88-4792-9B41-DA1F273E221F}
+	EndGlobalSection
+EndGlobal

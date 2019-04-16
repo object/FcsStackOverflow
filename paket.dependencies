@@ -1,0 +1,19 @@
+version 5.153.0
+
+redirects: on
+
+source https://nuget.org/api/v2
+framework: auto-detect
+
+nuget Argu
+nuget FSharp.Configuration ~> 1
+nuget FSharp.Core = 4.5.0
+nuget FSharp.Data ~> 2
+nuget FSharp.Data.TypeProviders
+nuget FSharp.Formatting
+nuget FSharpx.Collections
+nuget Microsoft.AspNet.WebApi.Client
+nuget Microsoft.FSharpLu.Json
+nuget Microsoft.Net.Http
+nuget Suave ~> 2
+nuget Suave.Swagger ~> 2

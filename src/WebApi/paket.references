@@ -1,0 +1,6 @@
+FSharp.Configuration
+FSharp.Core
+Microsoft.FSharpLu.Json
+Newtonsoft.Json
+Suave
+Suave.Swagger
